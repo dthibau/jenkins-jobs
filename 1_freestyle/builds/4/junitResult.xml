@@ -1,0 +1,87 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.49">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/1_freestyle/application/target/surefire-reports/TEST-hello.app.DemoApplicationTest.xml</file>
+      <name>hello.app.DemoApplicationTest</name>
+      <duration>6.864</duration>
+      <time>6.864</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.526</duration>
+          <className>hello.app.DemoApplicationTest</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>org.junit.ComparisonFailure: expected:&lt;null&gt; but was:&lt;hello.service.MyService@5739cbc8&gt;
+	at hello.app.DemoApplicationTest.contextLoads(DemoApplicationTest.java:22)
+</errorStackTrace>
+          <errorDetails>expected:&lt;null&gt; but was:&lt;hello.service.MyService@5739cbc8&gt;</errorDetails>
+          <stdout>15:14:16.926 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.app.DemoApplicationTest]
+15:14:16.941 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:14:16.959 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:14:16.997 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.app.DemoApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:14:17.019 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.app.DemoApplicationTest], using SpringBootContextLoader
+15:14:17.027 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.app.DemoApplicationTest]: class path resource [hello/app/DemoApplicationTest-context.xml] does not exist
+15:14:17.028 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.app.DemoApplicationTest]: class path resource [hello/app/DemoApplicationTestContext.groovy] does not exist
+15:14:17.028 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.app.DemoApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:14:17.031 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.app.DemoApplicationTest]: DemoApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:14:17.109 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.app.DemoApplicationTest]
+15:14:17.241 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/1_freestyle/application/target/classes/hello/app/DemoApplication.class]
+15:14:17.243 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.app.DemoApplication for test class hello.app.DemoApplicationTest
+15:14:17.421 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.app.DemoApplicationTest]: using defaults.
+15:14:17.422 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:14:17.444 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+15:14:17.444 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:14:17.445 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7ca492d9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14fc9bd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ed49a7f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1cd6b1bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@443cdaa4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b41e1bf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@619c93ca, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@486e9d1d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aa5974e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5e5ddfbc]
+15:14:17.447 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.app.DemoApplicationTest]
+15:14:17.448 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.app.DemoApplicationTest]
+15:14:17.450 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.app.DemoApplicationTest]
+15:14:17.451 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.app.DemoApplicationTest]
+15:14:17.452 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.app.DemoApplicationTest]
+15:14:17.452 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.app.DemoApplicationTest]
+15:14:17.461 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6f85ee02 testClass = DemoApplicationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@679d0be8 testClass = DemoApplicationTest, locations = &apos;{}&apos;, classes = &apos;{class hello.app.DemoApplication}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}&apos;, contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7d755813, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4e25147a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4567e53d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@153d4abb], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.boot.test.context.SpringBootContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.activateListener&apos; -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+15:14:17.462 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.app.DemoApplicationTest]
+15:14:17.462 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.app.DemoApplicationTest]
+15:14:17.507 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___&apos;_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | &apos;_ | &apos;_| | &apos;_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  &apos;  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2021-04-14 15:14:17.840  INFO 2450 --- [           main] hello.app.DemoApplicationTest            : Starting DemoApplicationTest on dthibau-XPS-13-7390 with PID 2450 (started by jenkins in /var/lib/jenkins/workspace/1_freestyle/application)
+2021-04-14 15:14:17.842  INFO 2450 --- [           main] hello.app.DemoApplicationTest            : No active profile set, falling back to default profiles: default
+2021-04-14 15:14:21.525  INFO 2450 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &apos;applicationTaskExecutor&apos;
+2021-04-14 15:14:22.867  INFO 2450 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path &apos;/actuator&apos;
+2021-04-14 15:14:22.978  INFO 2450 --- [           main] hello.app.DemoApplicationTest            : Started DemoApplicationTest in 5.449 seconds (JVM running for 6.723)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/1_freestyle/library/target/surefire-reports/TEST-hello.service.MyServiceTest.xml</file>
+      <name>hello.service.MyServiceTest</name>
+      <duration>2.167</duration>
+      <time>2.167</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.313</duration>
+          <className>hello.service.MyServiceTest</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>9.031</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

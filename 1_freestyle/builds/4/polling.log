@@ -1,0 +1,12 @@
+Started on 14 avr. 2021 à 15:14:00
+Using strategy: Default
+[poll] Last Built Revision: Revision a280983ea620a792a4072321df4822dcd3aa6167 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git ls-remote -h -- /home/dthibau/Formations/Jenkins/MyWork/multi-module # timeout=10
+Found 1 remote heads on /home/dthibau/Formations/Jenkins/MyWork/multi-module
+[poll] Latest remote head revision on refs/heads/master is: 184f03a26eb8a0962e6c0514e9618269e9ce739c
+Done. Took 14 ms
+Changes found

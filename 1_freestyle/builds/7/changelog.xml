@@ -1,0 +1,10 @@
+commit 55c299d51f4522eb38349eef1d17624b39859155
+tree d1c5654d9f487cf61de2c5c403524d3378f56924
+parent 96f9f0d72f0a01e8668d72cecbec23cfe06ff888
+author David THIBAU <david.thibau@gmail.com> 2021-04-15 11:47:53 +0200
+committer David THIBAU <david.thibau@gmail.com> 2021-04-15 11:47:53 +0200
+
+    Remove specific configuration JacoCCo
+
+
+:100644 100644 a26dcd3c60790e638de32d466070c68539737cc8 300240ce23127d06a3b14e082585b8efb4c0da07 M	pom.xml

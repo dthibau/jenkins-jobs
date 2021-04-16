@@ -1,0 +1,12 @@
+commit 96f9f0d72f0a01e8668d72cecbec23cfe06ff888
+tree 5578ef63a151fb142cfa1ba64a0e973d49beeeb9
+parent 184f03a26eb8a0962e6c0514e9618269e9ce739c
+author David THIBAU <david.thibau@gmail.com> 2021-04-14 15:18:26 +0200
+committer David THIBAU <david.thibau@gmail.com> 2021-04-14 15:18:26 +0200
+
+    Revert "Test failed"
+    
+    This reverts commit 184f03a26eb8a0962e6c0514e9618269e9ce739c.
+
+
+:100644 100644 4ac9a160a8ea6e9f9d55cc81582f603819bba5b4 7dc0d3a53d1967e2031bf71500c5717400a21b6c M	application/src/test/java/hello/app/DemoApplicationTest.java

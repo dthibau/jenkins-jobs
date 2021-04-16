@@ -1,0 +1,10 @@
+commit 184f03a26eb8a0962e6c0514e9618269e9ce739c
+tree 62d40dcf30cc90d12ed3cb55023bbb3eca4d2c45
+parent a280983ea620a792a4072321df4822dcd3aa6167
+author David THIBAU <david.thibau@gmail.com> 2021-04-14 15:11:04 +0200
+committer David THIBAU <david.thibau@gmail.com> 2021-04-14 15:11:04 +0200
+
+    Test failed
+
+
+:100644 100644 7dc0d3a53d1967e2031bf71500c5717400a21b6c 4ac9a160a8ea6e9f9d55cc81582f603819bba5b4 M	application/src/test/java/hello/app/DemoApplicationTest.java
